@@ -1,0 +1,30 @@
+.table{
+    margin-top:100px ;
+}
+.table_container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    flex-direction: row;
+    gap: 10px;
+}
+.table_item{
+    background-color: rgba(213, 242, 200, 1);
+
+}
+.table_item div:nth-child(1){
+  background-color: rgba(74, 116, 55, 1);
+  color:rgba(255, 255, 255, 1) ;
+  justify-content: center;
+  display: flex;
+  padding: 20px 40px ;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.table_item div:nth-child(2) {
+   color: rgba(88, 88, 88, 1);
+   padding: 0 20px;
+   font-size: 30px;
+}

@@ -1,0 +1,28 @@
+
+
+.way_heading{
+    color: rgba(33, 105, 0, 1);
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+.way_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.way_context{
+    color: rgba(113, 118, 111, 1);
+    font-size: 36px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 54px;
+    padding: 0 50px;
+
+}

@@ -1,0 +1,42 @@
+.yatri{
+    /* padding: 0 25px; */
+        width: 100%;
+    }
+.heading_yatri{
+        font-size: 30px;
+        /* width: 100%; */
+    font-weight: 700;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.yatri_container{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.yatri_data{
+
+}
+.yatri_item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+}
+.yatri_context{
+
+}
+
+.yatri_context div:nth-child(1) {
+    color: rgba(33, 105, 0, 1);
+
+}
+.yatri_context div:nth-child(2) {
+    color: rgba(88, 88, 88, 1);
+    font-size: 20px;
+    font-weight: 500;
+
+}

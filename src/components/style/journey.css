@@ -1,0 +1,24 @@
+.journey{
+    width: 100%;
+    
+}
+.journey_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+    padding: 200px 100px;
+}
+.journey_context{
+
+}
+.journey_context div:nth-child(1){
+    font-size: 52px;
+    font-weight: 700;
+    color: rgba(88, 88, 88, 1);
+}
+.journey_context p:nth-child(2){
+    font-size: 30px;
+    font-weight: 400;
+    color: rgba(88, 88, 88, 1);
+}
