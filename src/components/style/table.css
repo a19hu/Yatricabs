@@ -1,5 +1,5 @@
 .table{
-    margin-top:100px ;
+    margin-top:40px ;
 }
 .table_container{
     display: flex;
@@ -30,7 +30,8 @@
 .table_img{
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-top: 40px;
 }
 .table_img img{
    min-width: 110px;

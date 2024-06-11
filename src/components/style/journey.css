@@ -7,7 +7,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    padding: 200px 20px;
+    padding: 80px 20px;
 }
 .journey_img {
     display: flex;
@@ -17,9 +17,7 @@
 .journey_img img{
    width: 870px;
 }
-.journey_context{
 
-}
 .journey_context div:nth-child(1){
     font-size: 52px;
     font-weight: 700;
@@ -30,7 +28,10 @@
     font-weight: 400;
     color: rgba(88, 88, 88, 1);
 }
-
+.readmore{
+    color: black;
+    font-weight: 600;
+}
 
 
 
@@ -48,6 +49,13 @@
     .journey_img img {
         width: 767px;
     }
+        .journey_context div:nth-child(1) {
+            font-size: 42px;
+        }
+    
+        .journey_context p:nth-child(2) {
+            font-size: 20px;
+        }
 }
 @media screen and (max-width: 900px) {
     .journey_img img {
@@ -58,4 +66,11 @@
     .journey_img img {
         width: 307px;
     }
+           .journey_context div:nth-child(1) {
+               font-size: 30px;
+           }
+    
+           .journey_context p:nth-child(2) {
+               font-size: 20px;
+           }
 }
