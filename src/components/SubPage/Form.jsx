@@ -22,12 +22,14 @@ export default function Form() {
         </div>
         {
           station ? 
-            <div className='form_button'>
+            <div className='form_button' 
+            // style={station ?{opacity:'1'}:{opacity:'0'}}
+            >
               <button onClick={() => setway(true)} className={`button_small ${way ? 'active' : ''}`}>One Way</button>
               <button onClick={() => setway(false)} className={`button_small ${way ? '' : 'active'}`}> Round Trip</button>
             </div>
-            : null
-        }
+           : null
+        } 
        
         <div>
           {
