@@ -14,7 +14,7 @@ export default function Home() {
       <div className='heading_navbar'>
         <div className='heading_container'>
 
-          <img src={logo} alt="" className='heading_img' />
+          <img src={logo} alt="" />
           <img src={phone} alt="" className='heading_img' />
           <div>
             <img src={group} alt="" className='heading_img' />
