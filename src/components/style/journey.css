@@ -30,28 +30,32 @@
     font-weight: 400;
     color: rgba(88, 88, 88, 1);
 }
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .journey_img img {
+        width: 567px;
+    }
+}
 @media screen and (max-width: 900px) {
     .journey_container {
-            display: block;
-            justify-content: space-between;
+        display: block;
+        justify-content: space-between;
     }
-                .journey_img img {
-                    width: 767px;
-                }
-}
 
-@media screen and (max-width: 500px) {
     .journey_img img {
-            width: 377px;
-        }
+        width: 767px;
+    }
 }
 @media screen and (max-width: 900px) {
     .journey_img img {
         width: 467px;
     }
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 500px) {
     .journey_img img {
-        width: 567px;
+        width: 307px;
     }
 }

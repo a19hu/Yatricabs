@@ -27,7 +27,15 @@
    padding: 0 20px;
    font-size: 30px;
 }
-
+.table_img{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.table_img img{
+   min-width: 110px;
+   max-width: 1400px;
+}
 @media screen and (max-width: 1220px) {
 
 .table_item div:nth-child(1) {

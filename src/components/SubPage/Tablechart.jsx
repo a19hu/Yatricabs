@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/table.css'
+import threetext from '../Image/Frame 1686551858.png'
 export default function Tablechart() {
 
     const data =[
@@ -76,9 +77,10 @@ export default function Tablechart() {
           </div>
         ))}
       </div>
-      <div>
-
+      <div className='table_img'>
+           <img src={threetext} alt="" />
       </div>
+
     </div>
   )
 }
