@@ -2,6 +2,7 @@ import React from 'react'
 import stopcar from '../Image/stopcar.png'
 import text1 from '../Image/Group 1686551840.png'
 import text2 from '../Image/Group 1686551841.png'
+import carmove from '../Image/carmove.gif'
 import '../style/way.css'
 export default function ChooseWay() {
   return (
@@ -9,7 +10,7 @@ export default function ChooseWay() {
           <div className='way_heading'>Why Choose One way Cab?</div>
       <div className='way_container'>
         <img src={text1} alt="" />
-         <img src={stopcar} alt="" />
+         <img src={carmove} alt="" />
          <img src={text2} alt="" />
       </div>
       <div className='way_context'>

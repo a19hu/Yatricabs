@@ -20,6 +20,13 @@
 .way_container img{
    min-width: 110px;
    max-width: 500px;
+   max-height: 300px;
+   min-height: 110px;
+}
+.way_container img:nth-child(2){
+    min-width: 110px;
+    max-width: 500px;
+    border-radius: 10px;
 }
 .way_context{
     color: rgba(113, 118, 111, 1);

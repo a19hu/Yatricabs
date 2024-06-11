@@ -1,7 +1,6 @@
 import React from 'react'
 import '../style/journey.css'
-import progess from '../Image/progess.svg'
-// import carrun from 
+import move from '../Image/move.gif'
 export default function Journey() {
   return (
     <div className='journey'>
@@ -14,7 +13,7 @@ export default function Journey() {
                     </p>  
         </div>
         <div className='journey_img'>
-         <img src={progess} alt="" />
+         <img src={move} alt="" />
          
         </div>
       </div>
