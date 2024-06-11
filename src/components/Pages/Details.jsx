@@ -9,7 +9,7 @@ export default function Details() {
       {details.map((item) => {
         return (
           <div key={item.id} className='details_container'>
-            <h2>{item.name}</h2>
+            <div className='details_heading'>{item.name}</div>
             <div className='details_items'>
                     <li>{item.c1}</li>
                     <li>{item.c2}</li>

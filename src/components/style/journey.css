@@ -1,13 +1,14 @@
 .journey{
     width: 100%;
-    
+   
 }
 .journey_container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    padding: 80px 20px;
+    padding: 80px 40px;
+    /* padding: 80px 0.2%; */
 }
 .journey_img {
     display: flex;
@@ -19,7 +20,7 @@
 }
 
 .journey_context div:nth-child(1){
-    font-size: 52px;
+    font-size: 60px;
     font-weight: 700;
     color: rgba(88, 88, 88, 1);
 }

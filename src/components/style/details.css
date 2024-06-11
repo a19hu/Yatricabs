@@ -2,10 +2,10 @@
     margin-bottom: 10%;
 }
 .details_container{
-    margin: 20px;
+    margin: 40px;
 }
 
-.details_container h2{
+.details_heading{
     background-color: rgba(33, 105, 0, 1);
     border-radius: 20px;
     padding: 20px 10%;
@@ -38,15 +38,15 @@
 }
 
 @media  screen and (max-width: 1000px) {
-.details_container h2 {
+.details_heading{
     font-size: 30px;
 }
     
 }
 
 @media screen and (max-width: 600px) {
-    .details_container h2 {
-        font-size: 28px;
+    .details_heading{
+        font-size: 25px;
     }
 
 .details_container {
