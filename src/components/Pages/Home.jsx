@@ -10,13 +10,7 @@ import group from '../Image/Group 17.png'
 export default function Home() {
 
 
-  const mystyle = {
-    backgroundImage: `url(${background})`,
-    backgroundSize: "contain",
-    backgroundRepeat: "no-repeat",
-    height: "86vh",
-    with: "100vw",
-  };
+  
 
   return (
     <div>
@@ -31,24 +25,25 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='homepage' style={mystyle} >
+      <div className='homepage'  >
+        <div className='backgroundimage'>
+          <img src={background} alt="" />
+        </div>
         <div className='home_container'>
           <div className='heading_back'>
-
             <div className='heading'>
               India's {'\n'}
-              <span
-              // style={{ color:"rgba(33, 105, 0, 1)",fontWeight:"600"}}
-              >
+              <span              >
                 Leading One-Way Inter-City
               </span>  Cab Service Provider
             </div>
-          </div>
-          <div>
             <Form />
+          </div>
+          <div className='download'>
 
           </div>
         </div>
+        
       </div>
     </div>
   )

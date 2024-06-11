@@ -1,7 +1,99 @@
 .form{
-
+      
       /* height: 60vh; */
-      /* width: 100%; */
+      width: 80%;
       background-color: rgba(247, 247, 247, 0.846);
+      box-shadow: 2px 10px 10px rgba(0, 0, 0, 0.2);
       border-radius: 20px;
+      padding: 20px 5%;
+}
+.form_button{
+      flex-direction: row;
+      display: flex;
+      gap: 10px;
+      margin: 10px 0;
+            justify-content: center;
+}
+.button{
+      width: 173px;
+      height: 49.5px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      border: none;
+      cursor: pointer;
+      border: 2px solid rgba(33, 105, 0, 1);
+      color: rgba(160, 160, 160, 1);
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 26.62px;
+      font-weight: 500;
+      font-family: Lato;
+      border-radius: 7.99px;
+}
+.button_small {
+      width: 146px;
+      height: 42.5px;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+      border: none;
+      cursor: pointer;
+      border: 2px solid rgba(33, 105, 0, 1);
+      color: rgba(160, 160, 160, 1);
+      background-color: rgba(255, 255, 255, 1);
+      font-size: 26.62px;
+      font-weight: 500;
+      font-family: Lato;
+      border-radius: 7.99px;
+}
+.button_big{
+      width: 270px;
+            height: 42.5px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            border: none;
+            cursor: pointer;
+            border: 2px solid rgba(33, 105, 0, 1);
+            background-color: rgba(33, 105, 0, 1);
+                  color: rgba(255, 255, 255, 1);
+            font-size: 26.62px;
+            font-weight: 500;
+            font-family: Lato;
+            border-radius: 7.99px;
+}
+.submit{
+      display: flex;
+      justify-content: center;
+}
+.active{
+      background-color: rgba(33, 105, 0, 1);
+      color: rgba(255, 255, 255, 1);
+}
+.input_container{
+      position: relative;
+}
+.input_container input{
+      border: none;
+      background-color: rgba(247, 247, 247, 0);
+      width: 20%;
+            padding: 8px 30px 8px 0;
+            border-bottom: 1px solid #000;
+            font-size: 16px;
+            outline: none;
+            
+}
+.icon{
+      position: absolute;
+            /* left: 22%; */
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+}
+.form_container{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      margin: 20px 0;
+            justify-content: center;
 }
