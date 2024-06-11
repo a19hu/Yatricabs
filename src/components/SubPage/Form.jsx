@@ -6,6 +6,8 @@ import { IoMdTime } from "react-icons/io";
 import { MdOutlineDateRange } from "react-icons/md";
 import { CiCirclePlus } from "react-icons/ci";
 import { MdOutlineArrowDropDown } from "react-icons/md";
+import { FaArrowRight } from "react-icons/fa";
+import { FaArrowLeft } from "react-icons/fa";
 
 export default function Form() {
   const [station,SetStation] = useState(true)
@@ -31,7 +33,7 @@ export default function Form() {
           {
           station &&  way ?
               <div>
-                <div className='form_container'>
+                <div className='form_container arrow' >
 
                 <div>
                   <label htmlFor="">FROM</label>
@@ -40,6 +42,10 @@ export default function Form() {
                     <RxCrossCircled className='icon'/>
 
                   </div>
+                </div>
+                <div className='arrow_container'>
+                    <FaArrowRight  size={22}/>
+                  <FaArrowLeft  size={22}/>
                 </div>
                 <div>
                   <label htmlFor="">TO</label>
@@ -50,7 +56,7 @@ export default function Form() {
                   </div>
                 </div>
                 </div>
-                <div className='form_container'>
+                <div className='form_container without_arrow'>
                   <div>
                     <label htmlFor="">PICK UP DATE</label>
                     <div className='input_container'>
@@ -77,7 +83,7 @@ export default function Form() {
               :
                 station ?
                 <div>
-                  <div className='form_container'>
+                  <div className='form_container arrow'>
 
                     <div>
                       <label htmlFor="">FROM</label>
@@ -96,7 +102,7 @@ export default function Form() {
                       </div>
                     </div>
                   </div>
-                  <div className='form_container three_input'>
+                  <div className='form_container three_input arrow'>
                     <div>
                       <label htmlFor="">PICK UP DATE</label>
                       <div className='input_container'>
@@ -130,7 +136,7 @@ export default function Form() {
                 </div>
               :
                 <div>
-                  <div className='form_container'>
+                  <div className='form_container arrow'>
 
                     <div>
                       <label htmlFor="">FROM</label>
@@ -142,14 +148,14 @@ export default function Form() {
                     </div>
                     <div>
                       <label htmlFor="">TRIP</label>
-                      <div className='input_container'>
+                      <div className='input_container '>
                         <input type="text" />
                         <CiLocationOn className='icon' />
 
                       </div>
                     </div>
                   </div>
-                  <div className='form_container'>
+                  <div className='form_container arrow'>
                     <div>
                       <label htmlFor="">PICK UP</label>
                       <div className='input_container'>

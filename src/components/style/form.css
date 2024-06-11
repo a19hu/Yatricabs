@@ -115,11 +115,22 @@ label {
 .form_container {
       display: flex;
       flex-direction: row;
-      gap: 100px;
+      /* gap: 100px; */
       margin: 40px 0;
       justify-content: center;
 }
-
+.arrow{
+      gap: 40px;
+}
+.without_arrow{
+      gap: 120px;
+}
+.arrow_container svg{
+      color: #00000099;
+}
+.arrow_container svg:nth-child(1){
+    transform: translateY( 10px);
+}
 @media  screen and (max-width: 550px) {
       .button {
                   font-size: 15.62px;

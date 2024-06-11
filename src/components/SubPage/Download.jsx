@@ -6,32 +6,30 @@ export default function Download() {
   return (
     <>
     <div className='download_container'>
-      <div>
-              <div>No over-pricing</div>
-              <p>Cheapest costs I Competitive prices</p>
+      <div className='download_'>
+              <div className='download_heading'>No over-pricing</div>
+              <div className='download_context'>Cheapest costs I Competitive prices</div>
       </div>
       <div className='download_divider'/>
       <div className='download_container_store_laptop'>
-              <div>Download Now!</div>
-              <div>
+          <div className='download_heading'>Download Now!</div>
+              <div className='download_store'>
                 <img src={appstore} alt="" />
                 <img src={playstore} alt="" />
               </div>
       </div>
           <div className='download_divider laptop'/>
 
-      <div>
-              <div>No return fare</div>
-              <p>One-Way cab fare I No hidden charges</p>
+        <div className='download_'>
+          <div className='download_heading'>No return fare</div>
+          <div className='download_context'>One-Way cab fare I No hidden charges</div>
       </div>
     </div>
     <div className='download_container_store'>
-              <div>
-                  <div>Download Now!</div>
-                  <div>
+          <div className='download_heading'>Download Now!</div>
+                  <div className='download_store'>
                       <img src={appstore} alt="" />
                       <img src={playstore} alt="" />
-                  </div>
               </div>
     </div>
          
