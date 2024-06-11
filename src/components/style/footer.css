@@ -1,8 +1,7 @@
 .footer_container{
     background-color: rgba(0, 0, 0, 1);
-    position: fixed;
+    /* position: fixed; */
     bottom: 0;
-    width: 100%;
     padding: 20px 50px;
     color: rgba(255, 255, 255, 1);
     font-size: 20px;

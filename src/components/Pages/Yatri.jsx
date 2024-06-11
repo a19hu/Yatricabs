@@ -35,13 +35,13 @@ export default function Yatri() {
   ]
   return (
     <div className='yatri'>
-      <div className='heading_yatri'>WHY YATRI ?</div>
+      <div className='heading_yatri_phone'>WHY <span style={{ color:"rgba(33, 105, 0, 1)"}}> YATRI</span> ?</div>
       <div className='yatri_container'>
-        <div>
-          {/* <img src={car} alt="" /> */}
+        <div className='yatri_img'>
+          <img src={car} alt="" />
         </div>
         <div className='yatri_data'>
-          <div className='heading_yatri laptop'>WHY YATRI ?</div>
+          <div className='heading_yatri_laptop'>WHY <span style={{ color: "rgba(33, 105, 0, 1)" }}> YATRI</span> ?</div>
           {data.map((item) => (
             <div key={item.id} className='yatri_item'>
               <img src={item.image} alt="" />
