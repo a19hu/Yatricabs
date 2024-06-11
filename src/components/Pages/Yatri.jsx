@@ -38,10 +38,10 @@ export default function Yatri() {
       <div className='heading_yatri'>WHY YATRI ?</div>
       <div className='yatri_container'>
         <div>
-          <img src={car} alt="" />
+          {/* <img src={car} alt="" /> */}
         </div>
         <div className='yatri_data'>
-          <div className='heading_yatri'>WHY YATRI ?</div>
+          <div className='heading_yatri laptop'>WHY YATRI ?</div>
           {data.map((item) => (
             <div key={item.id} className='yatri_item'>
               <img src={item.image} alt="" />

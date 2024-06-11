@@ -1,5 +1,4 @@
 import './App.css';
-import {Routes,Route } from 'react-router-dom';
 import Home from './components/Pages/Home';
 import Yatri from './components/Pages/Yatri';
 import Tablechart from './components/SubPage/Tablechart';
@@ -9,19 +8,14 @@ import Details from './components/Pages/Details';
 import Footer from './components/SubPage/Footer';
 function App() {
   return (
-    // <Routes>
-    //   <Route path='/' element={<Home/>}/>
-    //     <Route path='/yatri' element={<Home />} />
-
-    // </Routes>
     <>
     <Home/>
-    {/* <Yatri/>
-    <Tablechart/>
+    <Yatri/>
+    {/* <Tablechart/> */}
     <Journey/>
       <ChooseWay/>
       <Details/>
-      <Footer/> */}
+      <Footer/>
     </>
   );
 }

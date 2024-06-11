@@ -3,8 +3,8 @@
     
 }
 .journey_container{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     align-items: center;
     gap: 70px;
     padding: 200px 100px;
@@ -21,4 +21,7 @@
     font-size: 30px;
     font-weight: 400;
     color: rgba(88, 88, 88, 1);
+}
+@media screen and (max-width: 1220px) {
+    
 }

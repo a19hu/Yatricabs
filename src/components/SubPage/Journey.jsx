@@ -14,7 +14,7 @@ export default function Journey() {
                     </p>  
         </div>
         <div>
-         <img src={progess} alt="" />
+         {/* <img src={progess} alt="" /> */}
          
         </div>
       </div>

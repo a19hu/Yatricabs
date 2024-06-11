@@ -5,7 +5,7 @@ export default function Details() {
 
 
   return (
-    <div>
+    <div className='details'>
       {details.map((item) => {
         return (
           <div key={item.id} className='details_container'>

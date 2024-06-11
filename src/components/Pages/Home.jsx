@@ -1,16 +1,13 @@
 import React from 'react'
 import '../style/home.css'
-import app from '../Image/app.png'
 import logo from '../Image/logo.png'
 import phone from '../Image/phone.png'
 import ravi from '../Image/ravi.png'
 import background from '../Image/background.png'
 import Form from '../SubPage/Form'
 import group from '../Image/Group 17.png'
+import Download from '../SubPage/Download'
 export default function Home() {
-
-
-  
 
   return (
     <div>
@@ -40,10 +37,10 @@ export default function Home() {
             <Form />
           </div>
           <div className='download'>
-
+            <Download />
           </div>
         </div>
-        
+
       </div>
     </div>
   )

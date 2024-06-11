@@ -1,5 +1,9 @@
 .yatri{
-    /* padding: 0 25px; */
+    margin-top: 30%;
+    /* position: relative; */
+    bottom: 10%;
+    left: 0;
+    padding: 0 25px;
         width: 100%;
     }
 .heading_yatri{
@@ -17,9 +21,7 @@
     align-items: center;
     gap: 50px;
 }
-.yatri_data{
 
-}
 .yatri_item{
     display: flex;
     flex-direction: row;
@@ -39,4 +41,9 @@
     font-size: 20px;
     font-weight: 500;
 
+}
+@media screen and (max-width: 1220px) {
+    .yatri_container {
+            flex-direction: column;
+    }
 }
