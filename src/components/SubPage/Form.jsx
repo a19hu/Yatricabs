@@ -96,7 +96,7 @@ export default function Form() {
                       </div>
                     </div>
                   </div>
-                  <div className='form_container'>
+                  <div className='form_container three_input'>
                     <div>
                       <label htmlFor="">PICK UP DATE</label>
                       <div className='input_container'>
