@@ -1,53 +1,82 @@
-.heading_navbar{
-    
-    width: 100%;
-}
-.heading_container{
-display: flex;
+.heading_container {
+    display: flex;
     justify-content: space-between;
-    /* padding: 3vh 2vh 3vh 2vh; */
-    padding: 2vh 0% 2vh 2%;
+    padding: 2vh 0% 3vh 2%;
     align-items: center;
 }
-.heading_img{
-    height: 8vh;
+
+.heading_img {
+    min-height: 2vh;
+    max-height: 10vh;
     max-width: 45%;
-    min-width: 15%;
-    /* width: 10%; */
+    min-width: 1%;
 }
-.homepage{
+
+.heading_container div img:nth-child(1) {
+    min-height: 2vh;
+    max-height: 9vh;
+    max-width: 46%;
+    min-width: 2%;
+}
+
+.heading_container div img:nth-child(2) {
+    min-height: 2vh;
+    max-height: 9vh;
+    max-width: 40%;
+    min-width: 1%;
+}
+
+.homepage {
     /* display: flex; */
     /* justify-content: center; */
     align-items: center;
-    
+
 }
-.home_container{
-    justify-content:space-between;
+
+.home_container {
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
-    /* padding: 60px 30px; */
     align-items: center;
+    height: 80vh;
+        padding: 0 4%;
+    background: linear-gradient(to right, #050505 0%, #0505056d 40%, transparent 100%);
 }
-.heading_back{
-    height: 86vh;
-    width: 60vw; 
+
+.heading_back {
+    /* height: 86vh; */
+    width: 40%;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0.8;
-    background-color: #0505051f;
-    background: linear-gradient(to right, #050505 0%,#0505056d 40%,transparent 100%);
+    /* background-color: #0505051f; */
 }
-.heading{
+
+.heading {
     font-weight: 300;
-    font-family:'Poppins';
-    font-size: 60px;
+    font-family: 'Poppins';
+    font-size: 3.5rem;
     color: aliceblue;
-    width: 37vw;
     text-transform: uppercase;
 }
-.heading  span{
+
+.heading span {
 
     color: rgb(20, 227, 20);
     font-weight: 700;
+}
+
+@media screen and (max-width: 1220px) {
+    .home_container {
+        flex-direction: column;
+        text-align: center;
+        padding: 8% 4%;
+        background: linear-gradient(to bottom, #050505 0%, #0505056d 40%, transparent 100%);
+    }
+
+    .heading_back {
+        /* height: 40vh; */
+        width: 100%;
+    }
 }

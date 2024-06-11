@@ -1,7 +1,7 @@
 .form{
 
-      height: 60vh;
+      /* height: 60vh; */
+      /* width: 100%; */
       background-color: rgba(247, 247, 247, 0.846);
       border-radius: 20px;
-      width: 60vw;
 }
