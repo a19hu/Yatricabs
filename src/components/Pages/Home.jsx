@@ -12,7 +12,7 @@ export default function Home() {
 
   const mystyle = {
     backgroundImage: `url(${background})`,
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
     height: "86vh",
     with: "100vw",
