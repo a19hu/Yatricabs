@@ -12,7 +12,7 @@ function App() {
     <Home/>
     {/* <Yatri/> */}
     <Tablechart/>
-    {/* <Journey/> */}
+    <Journey/>
       <ChooseWay/>
       <Details/>
       <Footer/>

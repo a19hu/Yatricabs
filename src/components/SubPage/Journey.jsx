@@ -13,8 +13,8 @@ export default function Journey() {
                    <br /><span style={{ color:'black',fontWeight:'600'}}>Read More....</span>
                     </p>  
         </div>
-        <div>
-         {/* <img src={progess} alt="" /> */}
+        <div className='journey_img'>
+         <img src={progess} alt="" />
          
         </div>
       </div>
