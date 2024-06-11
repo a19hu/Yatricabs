@@ -4,7 +4,6 @@
 .table_container{
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     width: 100%;
     flex-direction: row;
     gap: 10px;
@@ -27,4 +26,75 @@
    color: rgba(88, 88, 88, 1);
    padding: 0 20px;
    font-size: 30px;
+}
+
+@media screen and (max-width: 1220px) {
+
+.table_item div:nth-child(1) {
+    font-size: 30px;
+}
+.table_item div:nth-child(2) {
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 1000px) {
+    .table_container {
+        gap: 5px;
+    }
+
+    .table_item div:nth-child(1) {
+        font-size: 20px;
+        padding: 5px 5px;
+    }
+
+    .table_item div:nth-child(2) {
+        font-size: 15px;
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width: 800px) {
+    .table_container {
+        gap: 5px;
+    }
+
+    .table_item div:nth-child(1) {
+        font-size: 16px;
+        padding: 5px 5px;
+    }
+
+    .table_item div:nth-child(2) {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+.table_container {
+        gap: 5px;
+    }
+    .table_item div:nth-child(1) {
+        font-size: 15px;
+  padding: 5px 5px;
+    }
+
+    .table_item div:nth-child(2) {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .table_container {
+        gap: 2px;
+    }
+    .table_item div:nth-child(1) {
+        font-size: 6px;
+        padding: 5px 1px;
+    }
+
+    .table_item div:nth-child(2) {
+        font-size: 10px;
+   padding: 0 1px;
+    }
 }

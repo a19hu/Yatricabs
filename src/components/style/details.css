@@ -1,5 +1,5 @@
 .details{
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 .details_container{
     margin: 20px;
@@ -35,4 +35,28 @@
     line-height: 33px;
     margin: 40px 0;
     /* display: flex; */
+}
+
+@media  screen and (max-width: 1000px) {
+.details_container h2 {
+    font-size: 30px;
+}
+    
+}
+
+@media screen and (max-width: 600px) {
+    .details_container h2 {
+        font-size: 30px;
+    }
+
+.details_container {
+    margin:8px;
+}
+.details_items li {
+    color: rgba(88, 88, 88, 1);
+    margin: 10px 0;
+}
+.details_items {
+    padding: 20px 20px;
+}
 }

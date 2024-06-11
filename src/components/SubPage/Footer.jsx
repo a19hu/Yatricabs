@@ -20,8 +20,8 @@ export default function Footer() {
         </div>
         <div>
                   <div>Newsletter</div>
-                  <input type="text" />
-                  <div>
+                  <input type="text" placeholder='Email' className='input_footer'/>
+                  <div className='button_next'>
                       <FaArrowRight />
 
                   </div>

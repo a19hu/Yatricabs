@@ -36,9 +36,9 @@ export default function Home() {
             </div>
             <Form />
           </div>
-          <div className='download'>
+          {/* <div className='download'>
             <Download />
-          </div>
+          </div> */}
         </div>
 
       </div>

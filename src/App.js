@@ -10,9 +10,9 @@ function App() {
   return (
     <>
     <Home/>
-    <Yatri/>
-    {/* <Tablechart/> */}
-    <Journey/>
+    {/* <Yatri/> */}
+    <Tablechart/>
+    {/* <Journey/> */}
       <ChooseWay/>
       <Details/>
       <Footer/>

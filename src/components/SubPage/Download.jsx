@@ -7,12 +7,12 @@ export default function Download() {
     <>
     <div className='download_container'>
       <div>
-              <h1>No over-pricing</h1>
+              <div>No over-pricing</div>
               <p>Cheapest costs I Competitive prices</p>
       </div>
       <div className='download_divider'/>
       <div className='download_container_store_laptop'>
-              <h1>Download Now!</h1>
+              <div>Download Now!</div>
               <div>
                 <img src={appstore} alt="" />
                 <img src={playstore} alt="" />
@@ -21,13 +21,13 @@ export default function Download() {
           <div className='download_divider laptop'/>
 
       <div>
-              <h1>No return fare</h1>
+              <div>No return fare</div>
               <p>One-Way cab fare I No hidden charges</p>
       </div>
     </div>
     <div className='download_container_store'>
               <div>
-                  <h1>Download Now!</h1>
+                  <div>Download Now!</div>
                   <div>
                       <img src={appstore} alt="" />
                       <img src={playstore} alt="" />
