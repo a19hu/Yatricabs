@@ -1,7 +1,7 @@
 .heading_container {
     display: flex;
     justify-content: space-between;
-    padding: 2vh 0% 3vh 2%;
+    padding: 2vh 0% 2vh 2%;
     align-items: center;
 }
 
@@ -39,13 +39,13 @@
     flex-direction: row;
     align-items: center;
     height: 80vh;
-        padding: 0 4%;
+    padding: 0 4%;
     background: linear-gradient(to right, #050505 0%, #0505056d 40%, transparent 100%);
 }
 
 .heading_back {
     /* height: 86vh; */
-    width: 40%;
+    width: 32%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@
 .heading {
     font-weight: 300;
     font-family: 'Poppins';
-    font-size: 3.5rem;
+    font-size: 47.52px;
     color: aliceblue;
     text-transform: uppercase;
 }
@@ -79,4 +79,7 @@
         /* height: 40vh; */
         width: 100%;
     }
+        .heading {
+            font-size: 35.11px;
+        }
 }
