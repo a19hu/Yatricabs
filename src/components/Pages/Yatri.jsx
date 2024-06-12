@@ -35,7 +35,6 @@ export default function Yatri() {
   ]
   return (
     <div className='yatri'>
-      {/* <div className='heading_yatri_phones'>WHY {''} <span style={{ color:"rgba(33, 105, 0, 1)"}}>  YATRI</span> ?</div> */}
       <div className='heading_yatri_phones'>WHY  <span style={{ color: "rgba(33, 105, 0, 1)" }}> YATRI</span> ?</div>
 
       <div className='yatri_container'>

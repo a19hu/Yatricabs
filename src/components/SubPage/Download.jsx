@@ -12,7 +12,7 @@ export default function Download() {
       </div>
       <div className='download_divider'/>
       <div className='download_container_store_laptop'>
-          <div className='download_heading'>Download Now!</div>
+          <div className='download_heading_download'>Download Now!</div>
               <div className='download_store'>
                 <img src={appstore} alt="" />
                 <img src={playstore} alt="" />

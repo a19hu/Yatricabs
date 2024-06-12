@@ -1,13 +1,16 @@
 .download_container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    gap: 20px;
     align-items: center;
-    padding: 0px 4%;
+    padding: 20px 26px;
+    justify-content: center;
+    margin-bottom: 100px;
 }
 .download_divider{
     border-left: 1.5px solid rgb(0, 0, 0);
-        height: 100px;
+        height: 70px;
 }
 .download_{
     display: flex;
@@ -19,19 +22,25 @@ color: rgba(0, 0, 0, 1);
 font-family: Lato;
 }
 .download_heading{
-    font-size: 41px;
+    font-size: 41.82px;
     font-weight: 600;
     line-height: 50px;
 }
-.download_context{
+.download_heading_download{
     font-size: 26px;
+        font-weight: 700;
+        line-height: 31px;
+}
+.download_context{
+    font-size: 26.61px;
     font-weight: 300;
     line-height: 31px;
 }
 .download_store img{
-    min-width: 20px;
-    max-width: 200px;
-    width: 140px;
+    /* min-width: 20px; */
+    /* max-width: 200px; */
+    width: 204.65px;
+    height:79.2px ;
 }
 .download_container_store_laptop{
     display: flex;

@@ -14,22 +14,21 @@ export default function Form() {
   const [way,setway]=useState(true)
   return (
     <div className='form'>
-      <div>
         <div className='form_button'>
           <button onClick={() => SetStation(true)} className={`button ${station ? 'active' : ''}`}>Outstation</button>
           <button className='button'>Local</button>
           <button onClick={() => SetStation(false)} className={`button ${station ? '' : 'active'}`}>Airport</button>
         </div>
-        {
-          station ? 
-            <div className='form_button' 
-            // style={station ?{opacity:'1'}:{opacity:'0'}}
+        {/* {
+          station ?  */}
+            <div className='form_button_small' 
+            style={station ?{opacity:'1'}:{opacity:'0'}}
             >
               <button onClick={() => setway(true)} className={`button_small ${way ? 'active' : ''}`}>One Way</button>
               <button onClick={() => setway(false)} className={`button_small ${way ? '' : 'active'}`}> Round Trip</button>
             </div>
-           : null
-        } 
+           {/* : null
+        }  */}
        
         <div>
           {
@@ -41,7 +40,7 @@ export default function Form() {
                   <label htmlFor="">FROM</label>
                   <div className='input_container'>
                     <input type="text" />
-                    <RxCrossCircled className='icon'/>
+                    <RxCrossCircled className='icon' size={20}/>
 
                   </div>
                 </div>
@@ -53,7 +52,7 @@ export default function Form() {
                   <label htmlFor="">TO</label>
                   <div className='input_container'>
                     <input type="text" />
-                      <CiLocationOn className='icon' />
+                    <CiLocationOn className='icon' size={20} />
 
                   </div>
                 </div>
@@ -63,7 +62,7 @@ export default function Form() {
                     <label htmlFor="">PICK UP DATE</label>
                     <div className='input_container'>
                       <input type="text" />
-                      <IoMdTime className='icon' />
+                      <IoMdTime className='icon' size={20}/>
 
                     </div>
                   </div>
@@ -71,7 +70,7 @@ export default function Form() {
                     <label htmlFor="">PICK UP AT</label>
                     <div className='input_container'>
                       <input type="text" />
-                      <MdOutlineDateRange className='icon' />
+                    <MdOutlineDateRange className='icon' size={20} />
 
                     </div>
                   </div>
@@ -186,7 +185,6 @@ export default function Form() {
           }
           
         </div>
-      </div>
     </div>
   )
 }

@@ -1,14 +1,14 @@
-.details{
-    margin-bottom: 10%;
-}
+/* .details{
+    margin-bottom: 100px;
+} */
 .details_container{
-    margin: 40px;
+    margin: 100px 20.5px;
 }
 
 .details_heading{
     background-color: rgba(33, 105, 0, 1);
-    border-radius: 20px;
-    padding: 20px 10%;
+    border-radius: 10px;
+    padding: 13px 8%;
     color:rgba(255, 255, 255, 1) ;
     display: flex;
     justify-content: center;
@@ -24,8 +24,8 @@
 .details_items{
     background-color: rgba(241, 242, 245, 1);
     border-radius: 10px;
-    padding: 20px 50px;
-    margin: 40px  0 ;
+    padding: 46px 26px;
+    margin: 20px  0 ;
 }
 
 .details_items li{
@@ -33,8 +33,8 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 33px;
-    margin: 40px 0;
-    /* display: flex; */
+    margin-bottom: 20px;
+   
 }
 
 @media  screen and (max-width: 1000px) {

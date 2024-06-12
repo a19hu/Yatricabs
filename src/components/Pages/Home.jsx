@@ -10,7 +10,7 @@ import Download from '../SubPage/Download'
 export default function Home() {
 
   return (
-    <div>
+    <>
       <div className='heading_navbar'>
         <div className='heading_container'>
 
@@ -23,16 +23,15 @@ export default function Home() {
         </div>
       </div>
       <div className='homepage'  >
-        <div className='backgroundimage'>
           <img src={background} alt="" />
-        </div>
         <div className='home_container'>
           <div className='heading_back'>
+            
             <div className='heading'>
-              India's {'\n'}
+              India's {' '}
               <span              >
-                Leading One-Way Inter-City
-              </span>  Cab Service Provider
+                Leading {'\n'} One-Way Inter-City
+              </span> <span style={{letterSpacing:'0px'}}>Cab Service Provider</span>
             </div>
             <Form />
           </div>
@@ -42,6 +41,6 @@ export default function Home() {
         </div>
 
       </div>
-    </div>
+    </>
   )
 }

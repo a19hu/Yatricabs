@@ -6,7 +6,7 @@
     justify-content: center;
     width: 100%;
     flex-direction: row;
-    gap: 10px;
+    gap: 14px;
 }
 .table_item{
     background-color: rgba(213, 242, 200, 1);
@@ -17,22 +17,24 @@
   color:rgba(255, 255, 255, 1) ;
   justify-content: center;
   display: flex;
-  padding: 20px 40px ;
-  font-size: 40px;
-  font-weight: 600;
+  align-items: center;
+  padding: 25px 30px ;
+  font-size: 32px;
+  line-height: 22px;
+  font-weight: 500;
 }
 
 .table_item div:nth-child(2) {
    color: rgba(88, 88, 88, 1);
-   padding: 0 20px;
-   font-size: 30px;
+   font-size: 20px;
+   font-weight: 400;
+   padding: 20px 10px 37px 20px;
 }
 .table_img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
-    margin-top: 40px;
+    margin: 100px 20px;
 }
 .table_img img{
    min-width: 110px;

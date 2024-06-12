@@ -42,26 +42,6 @@ export default function Tablechart() {
 
     ]
 
-    const details =[
-        {
-            id: 1,
-            Image: '',
-        heading:'Return Fare, Not Fair!',
-        context:'Why Pay for Return Journey when you are travelling one-way? Now get discounted AC Taxi at just half of the round trip cost for your one-way travel.'
-        },
-        {
-            id: 2,
-            Image: '',
-          heading: 'GPS Based Billing System ',
-          context: 'Since the GPS data captures the actual distance and time traveled,   it reduce the chance of Kilometer tampering or discrepancies in billing.'
-        },
-        {
-            id: 3,
-            Image: '',
-          heading: 'Now available routes are!',
-          context: 'Lucknow | Gorakhpur | Varanasi | Allahabad | Bareilly'
-        },
-    ]
   return (
     <div className='table'>
       <div className='table_container'>

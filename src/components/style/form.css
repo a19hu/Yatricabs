@@ -1,24 +1,32 @@
 .form {
-
-      /* height: 60vh; */
       width: 80%;
       background-color: rgba(247, 247, 247, 0.846);
-      box-shadow: 10px 10px 8px rgba(254, 254, 254, 0.2),
-            2px 10px 2px rgba(62, 62, 62, 0.2);
+      /* box-shadow: 10px 10px 8px rgba(254, 254, 254, 0.2),
+            2px 10px 2px rgba(62, 62, 62, 0.2); */
       border-radius: 20px;
-      padding: 20px 5%;
+
 }
 
 .form_button {
       flex-direction: row;
       display: flex;
-      gap: 50px;
-      margin: 25px 0;
+      gap: 36.74px;
+      margin-top: 35px;
+      justify-content: center;
+
+}
+
+.form_button_small {
+      flex-direction: row;
+      display: flex;
+      gap: 97.43px;
+      margin-top: 25px;
+      margin-bottom: 29px;
       justify-content: center;
 }
 
 .button {
-      width: 173px;
+      width: 172.25px;
       height: 49.5px;
       align-items: center;
       justify-content: center;
@@ -36,26 +44,27 @@
 }
 
 .button_small {
-      width: 146px;
-      height: 42.5px;
+      width: 146.3px;
+      height: 42.59px;
       align-items: center;
       justify-content: center;
       display: flex;
       border: none;
       cursor: pointer;
-      border: 2px solid rgba(33, 105, 0, 1);
+      border: 1.6px solid rgba(33, 105, 0, 1);
       color: rgba(160, 160, 160, 1);
       background-color: rgba(255, 255, 255, 1);
-      font-size: 26.62px;
+      font-size: 19.17px;
       font-weight: 500;
       font-family: Lato;
       border-radius: 7.99px;
       box-shadow: 2px 2px 4px green;
+      margin-top: 27px;
 }
 
 .button_big {
-      width: 270px;
-      height: 42.5px;
+      width: 270.24px;
+      height: 42.84px;
       align-items: center;
       justify-content: center;
       display: flex;
@@ -64,17 +73,16 @@
       border: 2px solid rgba(33, 105, 0, 1);
       background-color: rgba(33, 105, 0, 1);
       color: rgba(255, 255, 255, 1);
-      font-size: 26.62px;
+      font-size: 22.44px;
       font-weight: 500;
       font-family: Lato;
-      border-radius: 7.99px;
+      border-radius: 6.6px;
       box-shadow: 2px 2px 4px green;
 }
 
 .submit {
       display: flex;
       justify-content: center;
-      margin-bottom: 30px ;
 }
 
 .active {
@@ -89,18 +97,16 @@
 label {
       color: rgba(88, 88, 88, 1);
       display: flex;
-      justify-content:start ;
+      justify-content: start;
 }
 
 .input_container input {
       border: none;
       background-color: rgba(247, 247, 247, 0);
       width: 100%;
-      padding: 8px 30px 8px 0;
       border-bottom: 1px solid #000;
       font-size: 16px;
       outline: none;
-      padding: 10px 10px;
 
 }
 
@@ -116,34 +122,34 @@ label {
       display: flex;
       flex-direction: row;
       /* gap: 100px; */
-      margin: 40px 0;
+      margin: 27px 0;
       justify-content: center;
 }
-.arrow{
+
+.arrow {
       gap: 40px;
 }
-.without_arrow{
+
+.without_arrow {
       gap: 120px;
 }
-.arrow_container svg{
+
+.arrow_container svg {
       color: #00000099;
 }
-.arrow_container svg:nth-child(1){
-    transform: translateY( 10px);
-}
-@media  screen and (max-width: 550px) {
-      .button {
-                  font-size: 15.62px;
-      }
-             .button_small{
-                   font-size: 15.62px;
-             }
-                          .button_big {
-                                font-size: 15.62px;
-                          }
+
+.arrow_container svg:nth-child(1) {
+      transform: translateY(10px);
 }
 
-@media screen and (max-width:4100px) {
+@media screen and (max-width: 1450px) and (min-width: 1400px) {
+      .form {
+            width: 850px;
+            height: 410px;
+      }
+}
+
+@media screen and (max-width: 550px) {
       .button {
             font-size: 15.62px;
       }
@@ -155,8 +161,23 @@ label {
       .button_big {
             font-size: 15.62px;
       }
-            .form {
-      
-                  width: 90%;
-            }
+}
+
+@media screen and (max-width:410px) {
+      .button {
+            font-size: 15.62px;
+      }
+
+      .button_small {
+            font-size: 15.62px;
+      }
+
+      .button_big {
+            font-size: 15.62px;
+      }
+
+      .form {
+
+            width: 90%;
+      }
 }

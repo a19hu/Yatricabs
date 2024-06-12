@@ -1,7 +1,7 @@
 .heading_container {
     display: flex;
     justify-content: space-between;
-    padding: 1vh 0% 1vh 2%;
+    padding: 40px 0% 1vh 2%;
     align-items: center;
 }
 
@@ -38,10 +38,10 @@
     position: relative;
     width: 100%;
     margin: 0;
-
+    margin-bottom: 198px;
 }
 
-.backgroundimage img {
+.homepage img {
     margin: 0;
     width: 100%;
     height: 70vh;
@@ -54,32 +54,33 @@
     top: 0;
     left: 0;
     right: 0;
-    height: 70vh;
-    padding: 0 2%;
-    background: linear-gradient(to right, #050505 0%, #0505056d 40%, transparent 100%);
+    padding: 0 20px;
+    background: linear-gradient(to right, #050505bd 0%, transparent 100%);
 }
 
 
 .heading_back {
     display: flex;
     flex-direction: row;
-    height: 70vh;
-    justify-content: center;
-    align-items: center;
+    gap: 11px;
+    margin-top: 98.98px;
 }
 
 .heading {
     font-weight: 300;
-    font-family: Poppins;
-    font-size: 47.52px;
+    /* font-family: Poppins; */
+    font-size: 48.146px;
     color: aliceblue;
     text-transform: uppercase;
+    line-height: 57.02px;
+    letter-spacing: 0.03em;
+    margin-top: 103px;
 }
 
-.heading span {
+.heading span:nth-child(1) {
 
     color: rgb(20, 227, 20);
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .download {
@@ -90,12 +91,32 @@
     left: 0;
     right: 0;
     bottom: 7%;
+    height: 161px;
+}
+
+@media screen and (max-width: 1450px) and (min-width: 1400px) {
+.homepage img {
+        height: 683px;
+
+    }
+
+    .download {
+        bottom: -111.02px;
+    }
+
+   
+
+    .heading {
+        width: 539px;
+    }
+
 }
 
 @media screen and (max-width: 1220px) {
     .download {
-            bottom: -4%;
-        }
+        bottom: -4%;
+    }
+
     .home_container {
         height: 85vh;
         background: linear-gradient(to bottom, #050505 0%, transparent 100%);
@@ -112,9 +133,10 @@
     .heading {
         font-size: 35.11px;
     }
-        .backgroundimage img {
-            height: 85vh;
-        }
+
+   .homepage img {
+        height: 85vh;
+    }
 
 }
 
@@ -124,21 +146,23 @@
     .download {
         bottom: -9%;
     }
-    .backgroundimage img {
+
+        .homepage img {
         height: 90vh;
     }
-    .home_container{
+
+    .home_container {
         height: 90vh;
         background: linear-gradient(to bottom, #050505 0%, transparent 100%);
     }
 }
 
 @media screen and (max-width: 450px) {
-.download {
+    .download {
         bottom: -13%;
     }
 
-    .backgroundimage img {
+        .homepage img {
         height: 95vh;
     }
 
@@ -151,6 +175,6 @@
 @media screen and (max-width: 450px) {
 
     .download {
-            bottom: -15%;
-        }
+        bottom: -15%;
+    }
 }
