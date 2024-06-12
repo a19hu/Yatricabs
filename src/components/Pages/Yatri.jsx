@@ -43,6 +43,8 @@ export default function Yatri() {
         </div>
         <div className='yatri_data'>
           <div className='heading_yatri_laptop'>WHY  <span style={{ color: "rgba(33, 105, 0, 1)" }}> YATRI</span> ?</div>
+          <div className='yatri_items_container'>
+
           {data.map((item) => (
             <div key={item.id} className='yatri_item'>
               <img src={item.image} alt="" />
@@ -52,6 +54,7 @@ export default function Yatri() {
               </div>
             </div>
           ))}
+          </div>
         </div>
       </div>
       

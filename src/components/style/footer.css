@@ -47,7 +47,7 @@
   border-radius: 0px 20px 20px 0px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 .footer_container {
   gap: 3.5px;
 }

@@ -102,12 +102,12 @@
 }
 
 
-@media screen and (max-width: 720px) {
 
 
+@media screen and (max-width: 800px) {
+.heading_container {
+    padding: 6px 0 12px 2%;
 }
-
-@media screen and (max-width: 500px) {
 .homepage {
   margin-bottom: 140px;
 }
@@ -119,8 +119,11 @@
     background: linear-gradient(to bottom, #050505bd 0%, transparent 100%);
 }
 .heading_back{
+    display: flex;
     flex-direction: column;
     margin-top: 0;
+    justify-content: center;
+    align-items: center;
 }
 .heading {
     font-size: 27.11px;
@@ -130,7 +133,7 @@
     width: 294px;
 }
 .heading span:nth-child(1) {
-    letter-spacing: 0px;
+    letter-spacing: 0.5px;
 }
 .download {
     bottom: -20px;

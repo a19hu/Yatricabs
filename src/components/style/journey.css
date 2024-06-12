@@ -61,7 +61,7 @@
         width: 467px;
     }
 } */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .journey{
     margin-bottom: 70px;
     }

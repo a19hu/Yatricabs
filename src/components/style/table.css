@@ -64,36 +64,8 @@
         padding: 0 5px;
     }
 }
-@media screen and (max-width: 800px) {
-    .table_container {
-        gap: 5px;
-    }
 
-    .table_item div:nth-child(1) {
-        font-size: 16px;
-        padding: 5px 5px;
-    }
 
-    .table_item div:nth-child(2) {
-        font-size: 13px;
-        padding: 0 5px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-.table_container {
-        gap: 5px;
-    }
-    .table_item div:nth-child(1) {
-        font-size: 15px;
-  padding: 5px 5px;
-    }
-
-    .table_item div:nth-child(2) {
-        font-size: 10px;
-        padding: 0 5px;
-    }
-}
 
 /* @media screen and (max-width: 500px) {
 
@@ -110,7 +82,7 @@
    padding: 0 1px;
     }
 } */
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
 
     .table_container {
         gap: 2px;

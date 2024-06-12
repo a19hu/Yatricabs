@@ -38,7 +38,7 @@
 }
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
     .details_heading{
         font-size: 12px;
         border-radius: 2.5px;
