@@ -95,7 +95,7 @@
     }
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
 
     .table_container {
         gap: 2px;
@@ -109,8 +109,8 @@
         font-size: 5px;
    padding: 0 1px;
     }
-}
-@media screen and (max-width: 400px) {
+} */
+@media screen and (max-width: 500px) {
 
     .table_container {
         gap: 2px;
