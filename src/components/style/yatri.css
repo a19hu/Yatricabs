@@ -33,11 +33,11 @@
     align-items: center;
     gap: 23px;
     margin-bottom: 30px;
-    justify-content:stretch
+    justify-content: stretch
 }
 
 .yatri_item img {
-    width: 66px; 
+    width: 66px;
     height: 62.4px;
 }
 
@@ -60,7 +60,7 @@
 
 }
 
-@media screen and (max-width: 1220px) {
+/* @media screen and (max-width: 1220px) {
     .yatri {
         margin-top: 15%;
     }
@@ -70,7 +70,6 @@
     }
 
     .heading_yatri_phones {
-        /* display: inline-block; */
         font-size: 60px;
         font-weight: 500;
         color: rgba(88, 88, 88, 1);
@@ -97,5 +96,29 @@
     .yatri {
         margin-top: 45%;
     }
+
+} */
+
+@media screen and (max-width: 400px) {
+    .heading_yatri_phones {
+        font-size: 30px;
+        font-weight: 500;
+        color: rgba(88, 88, 88, 1);
+        line-height: 45px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .heading_yatri_laptop {
+        display: none;
+    }
+
+    .yatri_container {
+        flex-direction: column;
+    }
+        .yatri_img img {
+            width: 294px;
+        }
 
 }

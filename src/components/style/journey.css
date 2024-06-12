@@ -7,7 +7,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* gap: 10px; */
     padding: 0px 23.5px;
 }
 .journey_img {
@@ -40,12 +39,7 @@
 
 
 
-@media screen and (max-width: 1300px) {
-    .journey_img img {
-        width: 567px;
-    }
-}
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .journey_container {
         display: block;
         justify-content: space-between;
@@ -66,16 +60,24 @@
     .journey_img img {
         width: 467px;
     }
-}
-@media screen and (max-width: 500px) {
-    .journey_img img {
-        width: 307px;
+} */
+@media screen and (max-width: 400px) {
+    .journey{
+    margin-bottom: 70px;
     }
-           .journey_context div:nth-child(1) {
-               font-size: 30px;
-           }
-    
-           .journey_context p:nth-child(2) {
-               font-size: 20px;
-           }
+    .journey_container{
+        padding: 0px 6px;
+    }
+
+    .journey_img img {
+        width: 166px;
+        height: 102.2px;
+    }
+.journey_context div:nth-child(1) {
+    font-size: 15.6px;
+}
+.journey_context p:nth-child(2) {
+    font-size: 10px;
+    line-height: 12px;
+}
 }

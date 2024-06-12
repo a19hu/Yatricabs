@@ -44,7 +44,7 @@
 .homepage img {
     margin: 0;
     width: 100%;
-    height: 70vh;
+        height: 683px;
 }
 
 .home_container {
@@ -64,6 +64,7 @@
     flex-direction: row;
     gap: 11px;
     margin-top: 98.98px;
+    justify-content: center;
 }
 
 .heading {
@@ -75,6 +76,7 @@
     line-height: 57.02px;
     letter-spacing: 0.03em;
     margin-top: 103px;
+        width: 539px;
 }
 
 .heading span:nth-child(1) {
@@ -90,91 +92,49 @@
     position: relative;
     left: 0;
     right: 0;
-    bottom: 7%;
-    height: 161px;
-}
-
-@media screen and (max-width: 1450px) and (min-width: 1400px) {
-.homepage img {
-        height: 683px;
-
-    }
-
-    .download {
         bottom: -111.02px;
-    }
-
-   
-
-    .heading {
-        width: 539px;
-    }
-
 }
+
 
 @media screen and (max-width: 1220px) {
-    .download {
-        bottom: -4%;
-    }
 
-    .home_container {
-        height: 85vh;
-        background: linear-gradient(to bottom, #050505 0%, transparent 100%);
-    }
-
-    .heading_back {
-        flex-direction: column;
-        justify-content: start;
-        margin: 35px 20px 0 20px;
-        text-align: center;
-        gap: 30px;
-    }
-
-    .heading {
-        font-size: 35.11px;
-    }
-
-   .homepage img {
-        height: 85vh;
-    }
 
 }
 
 
 @media screen and (max-width: 720px) {
 
-    .download {
-        bottom: -9%;
-    }
 
-        .homepage img {
-        height: 90vh;
-    }
-
-    .home_container {
-        height: 90vh;
-        background: linear-gradient(to bottom, #050505 0%, transparent 100%);
-    }
 }
 
-@media screen and (max-width: 450px) {
-    .download {
-        bottom: -13%;
+@media screen and (max-width: 400px) {
+.homepage {
+  margin-bottom: 140px;
+}
+.homepage img {
+        height: 345px;
     }
-
-        .homepage img {
-        height: 95vh;
-    }
-
-    .home_container {
-        height: 95vh;
-        background: linear-gradient(to bottom, #050505 0%, transparent 100%);
-    }
+.home_container{
+    padding: 0 16px;
+    background: linear-gradient(to bottom, #050505bd 0%, transparent 100%);
+}
+.heading_back{
+    flex-direction: column;
+    margin-top: 0;
+}
+.heading {
+    font-size: 27.11px;
+    line-height: 26.35px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    width: 294px;
+}
+.heading span:nth-child(1) {
+    letter-spacing: 0px;
+}
+.download {
+    bottom: -20px;
+    border-radius: 12.5px;
+}
 }
 
-@media screen and (max-width: 450px) {
-
-    .download {
-        bottom: -15%;
-    }
-}

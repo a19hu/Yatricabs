@@ -40,19 +40,19 @@ export default function Form() {
                   <label htmlFor="">FROM</label>
                   <div className='input_container'>
                     <input type="text" />
-                    <RxCrossCircled className='icon' size={20}/>
+                    <RxCrossCircled className='icon' size={18}/>
 
                   </div>
                 </div>
                 <div className='arrow_container'>
-                    <FaArrowRight  size={22}/>
-                  <FaArrowLeft  size={22}/>
+                    <FaArrowRight  size={18}/>
+                  <FaArrowLeft  size={18}/>
                 </div>
                 <div>
                   <label htmlFor="">TO</label>
                   <div className='input_container'>
                     <input type="text" />
-                    <CiLocationOn className='icon' size={20} />
+                    <CiLocationOn className='icon' size={18} />
 
                   </div>
                 </div>
@@ -62,7 +62,7 @@ export default function Form() {
                     <label htmlFor="">PICK UP DATE</label>
                     <div className='input_container'>
                       <input type="text" />
-                      <IoMdTime className='icon' size={20}/>
+                      <IoMdTime className='icon' size={18}/>
 
                     </div>
                   </div>
@@ -70,7 +70,7 @@ export default function Form() {
                     <label htmlFor="">PICK UP AT</label>
                     <div className='input_container'>
                       <input type="text" />
-                    <MdOutlineDateRange className='icon' size={20} />
+                    <MdOutlineDateRange className='icon' size={18} />
 
                     </div>
                   </div>
